@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tooltip {
+    white-space: pre-line;
+}
+.stroke-red
+{
+    stroke: #c92b48;
+}
+.uptime-card:last-child { border-bottom: none; }
+
+.uptime-card { border-bottom: 1px solid #e9e9e9; }
+
+.uptime-card .card{
+    overflow: visible;
+}
+
+ .bg-grad {
+	 background: linear-gradient(45deg, #f58181 0%, #ff3a5e 100%);
+}
+ .bg-grad i, .bg-grad p {
+	 opacity: 0.7;
+}
+ .uptime {
+	 line-height: 0;
+}
+ .uptime-marker {
+	 display: inline-block;
+	 width: 6px;
+	 height: 20px;
+	 background: #ccc;
+	 border-radius: 3px;
+	 margin: 2px;
+}
+ .uptime-marker.up {
+	 background: linear-gradient(45deg, #47cc35 0%, #4ddb73 100%);
+}
+ .uptime-marker.down {
+    background: linear-gradient(45deg, #f5c181 0%, #ff953a 100%);
+
+}
+ .uptime-marker.med {
+    background: linear-gradient(45deg, #7ffcaf 0%, hsl(129, 98%, 76%) 100%);
+
+}
+.uptime-marker.nodata {
+    background: linear-gradient(45deg, #bbbbbb 0%, hsl(0, 0%, 66%) 100%);
+
+}
+ 
+
+@font-face {
+    font-family: 'iranyekan';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/dists/fonts/iranyekanwebmediumfanum.eot');
+    src: url('/dists/fonts/iranyekanwebmediumfanum.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('/dists/fonts/iranyekanwebmediumfanum.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('/dists/fonts/iranyekanwebmediumfanum.ttf') format('truetype');
+}
+
+
+body ,a, h1 , h2 , h3 , h4,h5,h6 , p, th ,input, textarea {
+    font-family: 'Saira' , 'iranyekan'!important;
+    }
+
+html,
+input,
+button {
+    font-family: 'iranyekan','Saira' !important;
+    line-height: 1.5
+}
+
+:focus-visible {
+    outline: unset!important;
+}
