@@ -288,6 +288,7 @@ const chart = new Chart(ctx, {
     maintainAspectRatio: false,
 
     plugins: {
+
             legend: {
                 display: false
             },
@@ -299,12 +300,19 @@ const chart = new Chart(ctx, {
     scales: {
           x: 
             {
-              display: false,
 
+                grid: {
+                  display: false,
+              },
+                ticks: {
+                        display: false //this will remove only the label
+              }
           },
           y: 
             {
-              display: true,
+              grid: {
+                  display: false,
+              },
 
             }
           

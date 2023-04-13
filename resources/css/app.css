@@ -5,6 +5,23 @@
 .tooltip {
     white-space: pre-line;
 }
+[multiple], [type=date], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], select, textarea {
+    border: 1px solid #e3e3e3;
+}
+.user-profile img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%!important;
+    border-radius: 100%;
+    border: 4px solid #f7f7f7;
+    padding: 4px;
+    box-shadow: 1px 1px 13px #ebebeb;
+}
+.ltr
+{
+    direction: ltr;
+}
 .stroke-red
 {
     stroke: #c92b48;

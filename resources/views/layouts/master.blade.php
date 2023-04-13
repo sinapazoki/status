@@ -57,7 +57,7 @@
                             </div>
 
                             <div>
-                                <a href="https://highhost.org/" class="flex text-white text-sm items-center"> بازگشت به سایت <i class="w-4 mr-2 text-white" data-feather="arrow-left"></i></a>
+                                <a href="https://status.highhost.org/" class="flex text-white text-sm items-center"> بازگشت به سایت <i class="w-4 mr-2 text-white" data-feather="arrow-left"></i></a>
                             </div>
                             
                         </div>
